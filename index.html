@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="theme-color" content="#243c35">
+  <title>wheebuy spreadsheet : guide de sélection et liens par catégorie</title>
+  <meta name="description" content="Comprendre wheebuy spreadsheet : comparer les références, vérifier les tailles et préparer sa sélection de vêtements, baskets et accessoires avec méthode.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:title" content="wheebuy spreadsheet : choisir avec méthode">
+  <meta property="og:description" content="Un carnet pratique en français pour organiser ses recherches, comparer les détails et explorer les catégories CAFANS.">
+  <meta property="og:image" content="https://fr.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-casquette-my-lv-paris--M7587L_PM2_Front%20view.jpg">
+  <meta property="og:image:alt" content="Casquette noire My LV Paris de Louis Vuitton, vue de face">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="wheebuy spreadsheet : choisir avec méthode">
+  <meta name="twitter:description" content="Tailles, matières, références et budget : les vérifications utiles avant de composer sa sélection.">
+  <meta name="twitter:image" content="https://fr.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-casquette-my-lv-paris--M7587L_PM2_Front%20view.jpg">
+  <!-- index.html — Renseigner une URL canonique absolue uniquement lorsque l’adresse de publication de cette page est connue. -->
+  <link rel="preconnect" href="https://fr.louisvuitton.com">
+  <style>
+    :root {
+      color-scheme: light;
+      --paper: #f7f5ee;
+      --white: #fffef9;
+      --ink: #243c35;
+      --muted: #58665e;
+      --line: #d8ddd1;
+      --yellow: #e8ef9d;
+      --pink: #eee0df;
+      --soft: #e7ece3;
+      --radius: 6px;
+      --max: 1200px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.65;
+      -webkit-text-size-adjust: 100%;
+    }
+    a { color: inherit; text-underline-offset: .22em; }
+    a:hover { text-decoration-thickness: 2px; }
+    a:focus-visible, summary:focus-visible, main:focus-visible {
+      outline: 3px solid #556a12;
+      outline-offset: 5px;
+    }
+    img { display: block; width: 100%; height: auto; }
+    figure, p, h1, h2, h3 { margin: 0; }
+    p + p { margin-top: 1rem; }
+    h1, h2, h3 { line-height: 1.12; }
+    h1, h2 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-weight: 400;
+      letter-spacing: -.045em;
+      text-wrap: balance;
+    }
+    h1 { font-size: clamp(2.6rem, 5.8vw, 5.2rem); }
+    h2 { font-size: clamp(2rem, 3.8vw, 3.2rem); }
+    h3 { font-size: 1.08rem; letter-spacing: -.015em; }
+    .wrap { width: min(var(--max), calc(100% - 48px)); margin-inline: auto; }
+    .eyebrow {
+      font-size: .72rem;
+      font-weight: 750;
+      text-transform: uppercase;
+      letter-spacing: .16em;
+    }
+    .muted { color: var(--muted); }
+    .small { font-size: .83rem; }
+    .top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      min-height: 90px;
+      border-bottom: 1px solid var(--line);
+    }
+    .identity {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      font-weight: 750;
+      line-height: 1.15;
+      font-size: .95rem;
+      letter-spacing: .05em;
+    }
+    .identity-mark {
+      display: grid;
+      place-items: center;
+      width: 40px;
+      height: 40px;
+      border: 1px solid currentColor;
+      border-radius: 50%;
+      font-family: Georgia, serif;
+      font-size: 1.55rem;
+      font-weight: 400;
+    }
+    .top-right { display: flex; align-items: center; gap: 25px; }
+    .top-right a { font-size: .85rem; }
+    .language {
+      border: 1px solid var(--line);
+      padding: 4px 9px;
+      font-size: .7rem;
+      font-weight: 700;
+    }
+    .categories { padding-block: 20px 24px; }
+    .category-heading {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 15px;
+      margin-bottom: 12px;
+    }
+    .category-heading h2 {
+      font-family: inherit;
+      font-size: .78rem;
+      font-weight: 750;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    .category-heading p { font-size: .75rem; color: var(--muted); }
+    .category-grid {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 8px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .category-grid a {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+      height: 100%;
+      min-height: 48px;
+      padding: 11px 13px;
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      text-decoration: none;
+      font-size: .8rem;
+      font-weight: 600;
+      overflow-wrap: anywhere;
+    }
+    .category-grid a::after { content: "↗"; flex: none; color: var(--muted); }
+    .category-grid a:hover { background: var(--yellow); border-color: var(--ink); }
+    .hero {
+      display: grid;
+      grid-template-columns: 1.13fr 1fr;
+      border-top: 1px solid var(--ink);
+      border-bottom: 1px solid var(--ink);
+    }
+    .hero-copy { padding: 48px 48px 44px 0; }
+    .hero-copy .eyebrow { margin-bottom: 24px; }
+    .hero-copy h1 span { display: block; }
+    .hero-copy .intro {
+      max-width: 48ch;
+      margin-top: 26px;
+      font-size: 1.03rem;
+      color: var(--muted);
+    }
+    .button {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      min-height: 48px;
+      padding: 12px 22px;
+      background: var(--ink);
+      color: var(--white);
+      border: 1px solid var(--ink);
+      border-radius: var(--radius);
+      text-decoration: none;
+      font-size: .88rem;
+      font-weight: 700;
+    }
+    .button:hover { background: #35564b; }
+    .hero-copy .button { margin-top: 28px; }
+    .hero-note {
+      margin-top: 17px;
+      max-width: 48ch;
+      font-size: .76rem;
+      color: var(--muted);
+    }
+    .hero-visual {
+      display: flex;
+      flex-direction: column;
+      background: #eae6de;
+      border-left: 1px solid var(--ink);
+    }
+    .hero-image {
+      display: grid;
+      place-items: center;
+      flex: 1;
+      padding: 30px;
+    }
+    .hero-image img {
+      aspect-ratio: 1 / 1;
+      max-height: 430px;
+      object-fit: contain;
+    }
+    .hero-visual figcaption {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 15px;
+      padding: 17px 22px;
+      border-top: 1px solid #cdc9bf;
+      font-size: .76rem;
+    }
+    .answer {
+      display: grid;
+      grid-template-columns: .6fr 1.4fr;
+      gap: 40px;
+      padding: 30px;
+      margin-block: 28px 64px;
+      background: var(--yellow);
+      border-radius: var(--radius);
+    }
+    .answer h2 { font-size: 1.8rem; }
+    .answer p { max-width: 76ch; font-size: .95rem; }
+    .section-heading {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: end;
+      gap: 40px;
+      margin-bottom: 28px;
+    }
+    .section-heading .eyebrow { margin-bottom: 14px; }
+    .section-heading > p { max-width: 51ch; color: var(--muted); font-size: .94rem; }
+    .visual-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 16px;
+    }
+    .visual-card {
+      min-width: 0;
+      border-top: 1px solid var(--ink);
+      padding-top: 12px;
+    }
+    .visual-card .label {
+      display: flex;
+      justify-content: space-between;
+      font-size: .72rem;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+    .photo {
+      display: grid;
+      place-items: center;
+      aspect-ratio: 4 / 5;
+      background: var(--white);
+      overflow: hidden;
+      border-radius: var(--radius);
+    }
+    .photo img { height: 100%; object-fit: contain; }
+    .visual-card figcaption { padding-top: 16px; }
+    .visual-card h3 { margin-bottom: 9px; }
+    .visual-card p { color: var(--muted); font-size: .85rem; }
+    .visual-card a {
+      display: inline-block;
+      margin-top: 12px;
+      font-size: .81rem;
+      font-weight: 700;
+    }
+    .image-note {
+      margin-top: 20px;
+      padding-left: 13px;
+      border-left: 2px solid var(--line);
+      color: var(--muted);
+      font-size: .77rem;
+      max-width: 100ch;
+    }
+    .method {
+      display: grid;
+      grid-template-columns: .7fr 1.3fr;
+      gap: 60px;
+      margin-top: 76px;
+      padding-top: 40px;
+      border-top: 1px solid var(--ink);
+    }
+    .method-intro .eyebrow { margin-bottom: 15px; }
+    .method-intro > p:last-child { margin-top: 22px; color: var(--muted); font-size: .94rem; }
+    .steps { list-style: none; margin: 0; padding: 0; counter-reset: step; }
+    .steps li {
+      display: grid;
+      grid-template-columns: 38px 1fr;
+      gap: 16px;
+      padding: 0 0 24px;
+      margin-bottom: 24px;
+      border-bottom: 1px solid var(--line);
+      counter-increment: step;
+    }
+    .steps li::before {
+      content: "0" counter(step);
+      font-family: Georgia, serif;
+      font-size: 1.4rem;
+      line-height: 1;
+    }
+    .steps h3 { margin-bottom: 9px; }
+    .steps p { font-size: .91rem; color: var(--muted); }
+    .notebook {
+      margin-top: 50px;
+      padding: 36px;
+      background: var(--soft);
+      border-radius: var(--radius);
+    }
+    .notebook .eyebrow { margin-bottom: 14px; }
+    .notebook > p { margin-top: 18px; max-width: 78ch; color: var(--muted); }
+    .table-scroll {
+      margin-top: 26px;
+      overflow-x: auto;
+      border: 1px solid #bac6b8;
+      border-radius: var(--radius);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 610px;
+      text-align: left;
+      background: var(--white);
+      font-size: .88rem;
+    }
+    caption {
+      padding: 13px 16px;
+      background: #d8e1d3;
+      font-weight: 700;
+      text-align: left;
+    }
+    th, td { padding: 16px; vertical-align: top; border-bottom: 1px solid var(--line); }
+    thead th { font-size: .75rem; background: #edf1e8; }
+    tbody th { width: 23%; font-weight: 700; }
+    tbody tr:last-child th, tbody tr:last-child td { border-bottom: 0; }
+    .budget {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 45px;
+      padding-block: 56px;
+      border-bottom: 1px solid var(--ink);
+    }
+    .budget h2 { font-size: 2.5rem; }
+    .budget .eyebrow { margin-bottom: 15px; }
+    .budget p { margin-top: 20px; color: var(--muted); font-size: .93rem; }
+    .equation {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 28px;
+      background: var(--pink);
+      border-radius: var(--radius);
+    }
+    .equation strong { font-family: Georgia, serif; font-size: 1.8rem; font-weight: 400; }
+    .equation p { margin-top: 12px; font-size: .89rem; }
+    .faq {
+      display: grid;
+      grid-template-columns: .65fr 1.35fr;
+      gap: 65px;
+      padding-block: 60px;
+    }
+    .faq .eyebrow { margin-bottom: 15px; }
+    details { border-bottom: 1px solid var(--line); }
+    details:first-child { border-top: 1px solid var(--line); }
+    summary {
+      cursor: pointer;
+      padding: 19px 25px 19px 0;
+      font-size: .94rem;
+      font-weight: 650;
+    }
+    details p { padding: 0 20px 21px 0; color: var(--muted); font-size: .9rem; }
+    .closing {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 35px;
+      padding: 35px;
+      background: var(--ink);
+      color: var(--paper);
+      border-radius: var(--radius);
+      margin-bottom: 45px;
+    }
+    .closing h2 { font-size: 2.1rem; }
+    .closing p { margin-top: 12px; font-size: .9rem; color: #d4ddd2; max-width: 62ch; }
+    .closing .button {
+      flex: none;
+      background: var(--yellow);
+      border-color: var(--yellow);
+      color: var(--ink);
+    }
+    .closing .button:hover { background: #f1f5c3; }
+    footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+      padding-block: 25px 40px;
+      border-top: 1px solid var(--line);
+      font-size: .76rem;
+      color: var(--muted);
+    }
+    footer p { max-width: 85ch; }
+    footer a { white-space: nowrap; }
+    @media (min-width: 1500px) {
+      .wrap { width: min(var(--max), calc(100% - 80px)); }
+    }
+    @media (max-width: 900px) {
+      .category-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .hero-copy { padding-right: 28px; }
+      .hero-image { padding: 18px; }
+      .visual-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 18px; }
+      .method, .faq { gap: 30px; }
+      .section-heading { gap: 25px; }
+      .answer { grid-template-columns: 1fr; gap: 15px; }
+    }
+    @media (max-width: 620px) {
+      .wrap { width: calc(100% - 32px); }
+      .top { min-height: 76px; }
+      .identity { font-size: .78rem; }
+      .identity-mark { width: 34px; height: 34px; }
+      .top-right { gap: 10px; }
+      .top-right a { font-size: .75rem; }
+      .language { display: none; }
+      .category-heading { align-items: flex-start; flex-direction: column; gap: 5px; }
+      .category-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .category-grid a { font-size: .76rem; padding: 10px; }
+      .hero { grid-template-columns: 1fr; }
+      .hero-copy { padding: 32px 0; }
+      .hero-copy .eyebrow { margin-bottom: 18px; }
+      .hero-visual { border-left: 0; border-top: 1px solid var(--ink); }
+      .hero-image { padding: 18px; }
+      .hero-image img { max-height: 300px; }
+      .hero-visual figcaption { padding: 13px; font-size: .7rem; }
+      .answer { padding: 22px; margin-bottom: 45px; }
+      .section-heading, .method, .budget, .faq { grid-template-columns: 1fr; gap: 24px; }
+      .visual-grid { gap: 24px 12px; }
+      .visual-card h3 { font-size: .95rem; }
+      .visual-card p { font-size: .8rem; }
+      .method { margin-top: 48px; padding-top: 30px; }
+      .notebook { margin-top: 30px; padding: 23px 17px; }
+      .budget { padding-block: 38px; }
+      .budget h2 { font-size: 2.1rem; }
+      .faq { padding-block: 40px; }
+      .closing { flex-direction: column; align-items: flex-start; padding: 25px; gap: 22px; }
+      footer { flex-direction: column; gap: 15px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; }
+    }
+    @media print {
+      body { background: white; color: black; }
+      .wrap { width: 100%; }
+      .top-right, .closing, .button { display: none; }
+      .hero, .method, .faq, .budget { display: block; }
+      .hero-visual { border: 0; }
+      .hero-image img { max-height: 200px; }
+      .visual-grid { grid-template-columns: repeat(4, 1fr); }
+      details { break-inside: avoid; }
+      details::details-content { content-visibility: visible; }
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "name": "wheebuy spreadsheet : guide de sélection et liens par catégorie",
+        "description": "Un guide en français pour organiser ses recherches de vêtements, baskets et accessoires, comparer les références et préparer sa sélection.",
+        "inLanguage": "fr",
+        "about": {
+          "@type": "Thing",
+          "name": "wheebuy spreadsheet"
+        },
+        "hasPart": {
+          "@type": "ItemList",
+          "name": "Catégories à explorer sur CAFANS",
+          "numberOfItems": 10,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Chaussures",
+              "url": "https://cafans.com/category-911-Shoes.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Sweats et pulls",
+              "url": "https://cafans.com/category-912-Hoodies%2FSweaters.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "T-shirts",
+              "url": "https://cafans.com/category-913-T-Shirts.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Vestes",
+              "url": "https://cafans.com/category-914-Jackets.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "name": "Pantalons et shorts",
+              "url": "https://cafans.com/category-915-Pants%2FShorts.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "name": "Casquettes et bonnets",
+              "url": "https://cafans.com/category-916-Headwear.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "name": "Ensembles",
+              "url": "https://cafans.com/category-917-Sets.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "name": "Sous-vêtements",
+              "url": "https://cafans.com/category-918-underwear%2Funderpants.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "name": "Maillots",
+              "url": "https://cafans.com/category-919-Jersey.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 10,
+              "name": "Accessoires",
+              "url": "https://cafans.com/category-920-Accessories.html"
+            }
+          ]
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "inLanguage": "fr",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "À quoi sert une wheebuy spreadsheet ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Un tableur de sélection sert à rassembler des références et des liens pour les comparer. Son intérêt dépend de la précision des informations, de leur date de vérification et de la validité des pages liées."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Cette page contient-elle un tableur officiel à télécharger ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Non. Cette page est un guide indépendant en français. Elle ne fournit pas de tableur officiel et ses liens de navigation conduisent vers CAFANS ou vers les catégories CAFANS indiquées."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Comment vérifier un lien avant de retenir un article ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ouvrez la fiche de destination et comparez la référence, le coloris, la taille, les photos et l’identité du vendeur. Notez la date du contrôle et retirez les liens qui ne correspondent plus à votre sélection."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Les photos garantissent-elles l’authenticité ou la disponibilité ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Non. Les visuels illustrent les familles de produits. Ils ne prouvent ni l’authenticité d’un article proposé ailleurs, ni son stock, ni une relation commerciale avec les marques représentées."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Comment préparer une commande vers la France ou un autre pays ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Vérifiez les destinations desservies, les modalités de livraison, les restrictions éventuelles et les conditions de retour auprès du service utilisé. Demandez un total détaillé incluant les frais applicables avant de payer."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Quelles alternatives à wheebuy spreadsheet peut-on utiliser ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Un tableau personnel, une liste de favoris ou un catalogue classé par catégories peuvent aussi organiser une recherche. CAFANS constitue ici une destination de navigation ; aucune compatibilité avec Wheebuy n’est affirmée."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+<link rel="canonical" href="https://kakobuyfinds.github.io/qbjpy/">
+</head>
+<body>
+  <header class="wrap top">
+    <a class="identity" href="https://www.cafans.com" aria-label="Explorer le site CAFANS">
+      <span class="identity-mark" aria-hidden="true">c.</span>
+      <span>CARNET<br>DE SÉLECTION</span>
+    </a>
+    <div class="top-right">
+      <span class="language" aria-label="Langue : français">FR</span>
+      <a href="https://www.cafans.com">Explorer CAFANS <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main class="wrap" id="contenu" tabindex="-1">
+    <nav class="categories" aria-labelledby="categories-title">
+      <div class="category-heading">
+        <h2 id="categories-title">Choisir une catégorie</h2>
+        <p>Accès directs aux rubriques CAFANS</p>
+      </div>
+      <ul class="category-grid">
+        <li><a href="https://cafans.com/category-911-Shoes.html">Chaussures</a></li>
+        <li><a href="https://cafans.com/category-912-Hoodies%2FSweaters.html">Sweats et pulls</a></li>
+        <li><a href="https://cafans.com/category-913-T-Shirts.html">T-shirts</a></li>
+        <li><a href="https://cafans.com/category-914-Jackets.html">Vestes</a></li>
+        <li><a href="https://cafans.com/category-915-Pants%2FShorts.html">Pantalons et shorts</a></li>
+        <li><a href="https://cafans.com/category-916-Headwear.html">Casquettes et bonnets</a></li>
+        <li><a href="https://cafans.com/category-917-Sets.html">Ensembles</a></li>
+        <li><a href="https://cafans.com/category-918-underwear%2Funderpants.html">Sous-vêtements</a></li>
+        <li><a href="https://cafans.com/category-919-Jersey.html">Maillots</a></li>
+        <li><a href="https://cafans.com/category-920-Accessories.html">Accessoires</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Le carnet pratique · Mode et accessoires</p>
+        <h1 id="page-title">
+          <span>wheebuy spreadsheet</span>
+          Choisir avec méthode.
+        </h1>
+        <p class="intro">
+          Une belle image donne une idée. Une référence précise permet de comparer.
+          Ce guide vous aide à organiser vos recherches de baskets, de vêtements et
+          d’accessoires, puis à vérifier les détails qui comptent avant de retenir un article.
+        </p>
+        <a class="button" href="https://www.cafans.com">
+          Découvrir les catégories CAFANS <span aria-hidden="true">↗</span>
+        </a>
+        <p class="hero-note">
+          Guide indépendant en français. Aucun tableur officiel n’est hébergé ici ;
+          les liens de navigation mènent vers CAFANS.
+        </p>
+      </div>
+      <figure class="hero-visual">
+        <div class="hero-image">
+          <img
+            src="https://fr.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-casquette-my-lv-paris--M7587L_PM2_Front%20view.jpg"
+            alt="Casquette noire My LV Paris de Louis Vuitton, vue de face avec broderie sur le devant"
+            width="640"
+            height="640"
+            fetchpriority="high"
+            loading="eager"
+            decoding="async">
+        </div>
+        <figcaption>
+          <span>Louis Vuitton · Casquette My LV Paris</span>
+          <span>Repère visuel</span>
+        </figcaption>
+      </figure>
+    </section>
+
+    <aside class="answer" aria-labelledby="answer-title">
+      <h2 id="answer-title">L’essentiel, tout de suite.</h2>
+      <p>
+        Une <strong>wheebuy spreadsheet</strong> désigne un tableur de sélection
+        destiné à regrouper des références et des liens. Pour qu’une liste soit utile,
+        chaque entrée doit permettre d’identifier le modèle, sa variante, sa source
+        et la date de vérification. Un lien enregistré reste un point de départ :
+        la fiche de destination doit être contrôlée avant tout achat.
+      </p>
+    </aside>
+
+    <section aria-labelledby="visual-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">01 / Regarder les bons détails</p>
+          <h2 id="visual-title">Quatre familles.<br>Quatre façons de comparer.</h2>
+        </div>
+        <p>
+          Une sélection de baskets ne se vérifie pas comme une sélection de bijoux.
+          Utilisez ces visuels pour distinguer les critères propres à chaque famille,
+          sans les confondre avec des offres disponibles sur le site de destination.
+        </p>
+      </div>
+
+      <div class="visual-grid">
+        <figure class="visual-card">
+          <div class="label"><span>BASKETS</span><span aria-hidden="true">01</span></div>
+          <div class="photo">
+            <img
+              src="https://www.ego-sport.pl/hpeciai/a63432ceca39f4d6581781f14515d795/pol_pl_Nike-buty-meskie-Air-Force-1-07-CW2288-111-biale-14786_1.webp"
+              alt="Basket Nike Air Force 1 ’07 blanche, référence CW2288-111"
+              width="480"
+              height="600"
+              loading="lazy"
+              decoding="async">
+          </div>
+          <figcaption>
+            <h3>Nike · Une référence identifiable</h3>
+            <p>
+              Pour des baskets blanches, vérifiez le code du modèle, la pointure EU
+              et le guide des tailles. Un nom de gamme seul ne suffit pas.
+            </p>
+            <a href="https://cafans.com/category-911-Shoes.html">Explorer les chaussures ↗</a>
+          </figcaption>
+        </figure>
+
+        <figure class="visual-card">
+          <div class="label"><span>VÊTEMENTS</span><span aria-hidden="true">02</span></div>
+          <div class="photo">
+            <img
+              src="https://sport-kuhn.de/cdn/shop/files/nike_m_nk_club_bb_po_hoodie_infinit_fn3859_010_1165.jpg?v=1755208485&amp;width=600"
+              alt="Mannequin portant un sweat à capuche Nike Club noir avec petit logo blanc sur la poitrine"
+              width="480"
+              height="600"
+              loading="lazy"
+              decoding="async">
+          </div>
+          <figcaption>
+            <h3>Nike · La coupe avant l’étiquette</h3>
+            <p>
+              Un sweat à capuche se compare par sa largeur de poitrine, sa longueur
+              et ses manches. Pour une coupe ample, partez d’un vêtement qui vous va.
+            </p>
+            <a href="https://cafans.com/category-912-Hoodies%2FSweaters.html">Explorer les sweats ↗</a>
+          </figcaption>
+        </figure>
+
+        <figure class="visual-card">
+          <div class="label"><span>BIJOUX</span><span aria-hidden="true">03</span></div>
+          <div class="photo">
+            <img
+              src="https://media.gucci.com/style/DarkGray_Center_0_0_2400x2400/1757085312/854576_JAAHV_8062_002_100_0000_Light--GG-Marmont-crystal-ring.jpg"
+              alt="Bague Gucci GG Marmont à motif double G doré et cristaux"
+              width="480"
+              height="600"
+              loading="lazy"
+              decoding="async">
+          </div>
+          <figcaption>
+            <h3>Gucci · Les dimensions réelles</h3>
+            <p>
+              Pour une bague, relevez le diamètre intérieur et la taille de doigt.
+              Vérifiez la matière déclarée, la finition et les conseils d’entretien.
+            </p>
+            <a href="https://cafans.com/category-920-Accessories.html">Explorer les accessoires ↗</a>
+          </figcaption>
+        </figure>
+
+        <figure class="visual-card">
+          <div class="label"><span>FOULARDS</span><span aria-hidden="true">04</span></div>
+          <div class="photo">
+            <img
+              src="https://assets.hermes.com/is/image/hermesproduct/004297S%2002_flat_wm_103?%24product_default_bg%24=&amp;align=0%2C0&amp;extend=0%2C0%2C0%2C0"
+              alt="Carré Hermès Rewilding Nature déplié, présentant un motif multicolore"
+              width="480"
+              height="600"
+              loading="lazy"
+              decoding="async">
+          </div>
+          <figcaption>
+            <h3>Hermès · Le format et le motif</h3>
+            <p>
+              Un foulard imprimé se choisit aussi par ses dimensions et sa composition
+              textile. Examinez le motif complet plutôt qu’un détail recadré.
+            </p>
+            <a href="https://cafans.com/category-920-Accessories.html">Explorer les accessoires ↗</a>
+          </figcaption>
+        </figure>
+      </div>
+
+      <p class="image-note">
+        Les images servent de références visuelles. Elles ne constituent pas des offres,
+        ne garantissent pas la disponibilité sur CAFANS et n’établissent aucune affiliation
+        avec Nike, Louis Vuitton, Gucci, Hermès ou Wheebuy.
+      </p>
+    </section>
+
+    <section class="method" aria-labelledby="method-title">
+      <div class="method-intro">
+        <p class="eyebrow">02 / Construire une sélection lisible</p>
+        <h2 id="method-title">Votre guide wheebuy spreadsheet, en trois gestes.</h2>
+        <p>
+          L’objectif n’est pas de conserver le plus de liens possible.
+          Il est de retrouver facilement quelques références pertinentes,
+          avec assez d’informations pour les comparer.
+        </p>
+      </div>
+      <ol class="steps">
+        <li>
+          <div>
+            <h3>Définir l’usage</h3>
+            <p>
+              Commencez par une tenue quotidienne, une pratique sportive ou une occasion
+              précise. Déterminez votre budget personnel et les catégories utiles :
+              un t-shirt en coton, une veste légère ou un pantalon droit ne répondent
+              pas au même besoin.
+            </p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h3>Conserver une entrée par variante</h3>
+            <p>
+              Séparez les coloris et les coupes qui changent réellement le produit.
+              Dans vos liens produits wheebuy spreadsheet, notez le nom exact,
+              la référence, la taille souhaitée et l’adresse source. Regroupez ensuite
+              les doublons qui conduisent à la même variante.
+            </p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h3>Vérifier au moment de décider</h3>
+            <p>
+              Relisez la fiche produit, examinez les photos de détail et identifiez
+              le vendeur. Ajoutez une date de vérification et une note factuelle :
+              mesure manquante, composition indiquée ou lien devenu indisponible.
+              Une information absente doit rester signalée comme telle.
+            </p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="notebook" aria-labelledby="notebook-title">
+      <p class="eyebrow">03 / La fiche de comparaison</p>
+      <h2 id="notebook-title">wheebuy spreadsheet en français : les champs utiles.</h2>
+      <p>
+        Ces repères couvrent les recherches les plus concrètes : choisir une taille,
+        comprendre une coupe et identifier une variante. Vous pouvez les reprendre
+        dans un tableau personnel, sans supposer qu’un catalogue externe possède
+        déjà tous ces renseignements.
+      </p>
+
+      <div class="table-scroll" role="region" aria-label="Tableau des critères de sélection" tabindex="0">
+        <table>
+          <caption>Que vérifier selon la catégorie ?</caption>
+          <thead>
+            <tr>
+              <th scope="col">Famille</th>
+              <th scope="col">Informations à relever</th>
+              <th scope="col">Question à résoudre</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Chaussures</th>
+              <td>Référence du modèle, longueur du pied, pointure EU et forme de la semelle.</td>
+              <td>Le tableau de pointures correspond-il précisément au modèle choisi ?</td>
+            </tr>
+            <tr>
+              <th scope="row">Sweats et pulls</th>
+              <td>Largeur de poitrine, longueur des manches, coupe ample et composition textile.</td>
+              <td>Les mesures correspondent-elles à celles d’un vêtement que vous portez déjà ?</td>
+            </tr>
+            <tr>
+              <th scope="row">T-shirts et vestes</th>
+              <td>Largeur d’épaules, longueur du dos, type de fermeture et présence d’une doublure.</td>
+              <td>La coupe permet-elle les superpositions prévues ?</td>
+            </tr>
+            <tr>
+              <th scope="row">Pantalons et shorts</th>
+              <td>Tour de taille, longueur d’entrejambe, hauteur de taille et ouverture de jambe.</td>
+              <td>La taille est-elle mesurée à plat, et la ceinture est-elle élastique ?</td>
+            </tr>
+            <tr>
+              <th scope="row">Casquettes et bonnets</th>
+              <td>Tour de tête, système de réglage, profondeur de calotte et matière principale.</td>
+              <td>Le réglage annoncé couvre-t-il votre mesure sans approximation ?</td>
+            </tr>
+            <tr>
+              <th scope="row">Ensembles et maillots</th>
+              <td>Pièces incluses, mesures du haut et du bas, version du maillot et personnalisation éventuelle.</td>
+              <td>Le visuel présente-t-il exactement la version sélectionnée ?</td>
+            </tr>
+            <tr>
+              <th scope="row">Sous-vêtements</th>
+              <td>Tour de hanches, élasticité, composition et conditions de retour applicables.</td>
+              <td>Les conditions indiquées conviennent-elles à cette catégorie précise ?</td>
+            </tr>
+            <tr>
+              <th scope="row">Bijoux et foulards</th>
+              <td>Diamètre intérieur, longueur de chaîne, dimensions du foulard et matière déclarée.</td>
+              <td>Les dimensions sont-elles disponibles en millimètres ou en centimètres ?</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="budget" aria-labelledby="budget-title">
+      <div>
+        <p class="eyebrow">04 / Comparer sur la même base</p>
+        <h2 id="budget-title">Un prix affiché ne suffit pas à établir le budget.</h2>
+        <p>
+          Pour comparer des achats internationaux, relevez la devise, les frais de service
+          éventuels, les options de livraison et les conditions de retour.
+          Si une conversion monétaire est nécessaire, notez le taux et la date utilisés.
+        </p>
+        <p>
+          Pour une livraison en France ou ailleurs, faites confirmer les destinations
+          desservies et les frais applicables par le service choisi. Aucun montant,
+          délai ou avantage commercial n’est présumé dans ce guide.
+        </p>
+      </div>
+      <aside class="equation" aria-label="Méthode de calcul du budget">
+        <strong>Comparer le total, puis choisir.</strong>
+        <p>
+          Prix des articles + transport + frais de service éventuels +
+          taxes ou droits applicables = budget à confirmer avant paiement.
+        </p>
+        <p>
+          Conservez aussi une copie des caractéristiques retenues :
+          référence, coloris, taille et conditions annoncées.
+        </p>
+      </aside>
+    </section>
+
+    <section class="faq" aria-labelledby="faq-title">
+      <div>
+        <p class="eyebrow">05 / Réponses directes</p>
+        <h2 id="faq-title">Les questions à régler avant de cliquer.</h2>
+      </div>
+      <div>
+        <details open>
+          <summary>À quoi sert une wheebuy spreadsheet ?</summary>
+          <p>
+            Un tableur de sélection sert à rassembler des références et des liens
+            pour les comparer. Son intérêt dépend de la précision des informations,
+            de leur date de vérification et de la validité des pages liées.
+          </p>
+        </details>
+        <details>
+          <summary>Cette page contient-elle un tableur officiel à télécharger ?</summary>
+          <p>
+            Non. Cette page est un guide indépendant en français. Elle ne fournit pas
+            de tableur officiel et ses liens de navigation conduisent vers CAFANS
+            ou vers les catégories CAFANS indiquées.
+          </p>
+        </details>
+        <details>
+          <summary>Comment vérifier un lien avant de retenir un article ?</summary>
+          <p>
+            Ouvrez la fiche de destination et comparez la référence, le coloris,
+            la taille, les photos et l’identité du vendeur. Notez la date du contrôle
+            et retirez les liens qui ne correspondent plus à votre sélection.
+          </p>
+        </details>
+        <details>
+          <summary>Les photos garantissent-elles l’authenticité ou la disponibilité ?</summary>
+          <p>
+            Non. Les visuels illustrent les familles de produits. Ils ne prouvent
+            ni l’authenticité d’un article proposé ailleurs, ni son stock,
+            ni une relation commerciale avec les marques représentées.
+          </p>
+        </details>
+        <details>
+          <summary>Comment préparer une commande vers la France ou un autre pays ?</summary>
+          <p>
+            Vérifiez les destinations desservies, les modalités de livraison,
+            les restrictions éventuelles et les conditions de retour auprès
+            du service utilisé. Demandez un total détaillé incluant les frais
+            applicables avant de payer.
+          </p>
+        </details>
+        <details>
+          <summary>Quelles alternatives à wheebuy spreadsheet peut-on utiliser ?</summary>
+          <p>
+            Un tableau personnel, une liste de favoris ou un catalogue classé
+            par catégories peuvent aussi organiser une recherche. CAFANS constitue
+            ici une destination de navigation ; aucune compatibilité avec Wheebuy
+            n’est affirmée.
+          </p>
+        </details>
+      </div>
+    </section>
+
+    <section class="closing" aria-labelledby="closing-title">
+      <div>
+        <h2 id="closing-title">Une catégorie. Quelques références. Un choix éclairé.</h2>
+        <p>
+          Explorez CAFANS, retenez les articles qui répondent à votre besoin,
+          puis vérifiez leurs caractéristiques sur les fiches de destination.
+        </p>
+      </div>
+      <a class="button" href="https://www.cafans.com">
+        Ouvrir CAFANS <span aria-hidden="true">↗</span>
+      </a>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <p>
+      Carnet de sélection · Guide indépendant en français.
+      Les marques citées appartiennent à leurs titulaires respectifs.
+      Cette page ne représente pas Wheebuy et ne constitue pas une boutique officielle
+      des marques illustrées.
+    </p>
+    <a href="https://www.cafans.com">Continuer sur CAFANS ↗</a>
+  </footer>
+</body>
+</html>
